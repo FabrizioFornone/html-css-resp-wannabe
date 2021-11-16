@@ -77,20 +77,33 @@ img {
 /* mobile */
 
 @media screen and (max-width: 575px) {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
   .row {
     width: 100%;
     max-width: 992px;
+    margin-top: 20px;
   }
 
   #lezioni .row > .left,
   #lezioni .row > .right {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 20px;
   }
   #steps .row > .left,
   #steps .row > .central,
   #steps .row > .right {
     width: 100%;
     margin-top: 30px;
+  }
+
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third {
+    width: 100%;
+    margin-top: 20px;
   }
 }
