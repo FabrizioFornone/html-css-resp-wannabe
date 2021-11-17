@@ -117,7 +117,7 @@ img {
     margin-right: 15px;
     margin-top: 30px;
   }
-  h3{
+  h3 {
     margin: 15px 0;
   }
   #why hr {
@@ -149,16 +149,22 @@ img {
     padding-top: 20px;
   }
 
+  img {
+    height: 140px;
+  }
+
   #lezioni .row > .left,
   #lezioni .row > .right {
     width: 100%;
     margin-top: 20px;
+    padding: 15px;
   }
   #steps .row > .left,
   #steps .row > .central,
   #steps .row > .right {
     width: 100%;
     margin-top: 30px;
+    padding: 15px;
   }
 
   #why .row > .first,
@@ -166,6 +172,7 @@ img {
   #why .row > .third {
     width: 100%;
     margin-top: 20px;
+    padding: 15px;
   }
 
   #lezioni .row > .right,
